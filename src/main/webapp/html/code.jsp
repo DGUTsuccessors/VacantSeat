@@ -10,38 +10,32 @@
     <meta name="theme-color" content="#3f51b5">
     <title>有位么</title>
 
-    <!-- css -->
-    <!--<link href="/theme/material/css/base.css" rel="stylesheet">
-    <link href="/theme/material/css/project.css" rel="stylesheet">
-    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     -->
-    <link href="bootstrap.min.css"  rel="stylesheet">
-    <link href="material-dash.css"  rel="stylesheet">
+    <link href="<c:url value='/style/bootstrap.min.css'/>"  rel="stylesheet">
+    <link href="<c:url value='/style/material-dash.css'/>"  rel="stylesheet">
 
 
-    <link href="sweetalert.css"  rel="stylesheet">
-    <script type="text/javascript" src="sweetalert.min.js" ></script>
+    <link href="<c:url value='/style/sweetalert.css'/>"  rel="stylesheet">
+    <script type="text/javascript" src="<c:url value='/js/sweetalert.min.js'/>"></script>
 
-    <link href="icon-family=Material+Icons.css"  rel="stylesheet">
+    <link href="<c:url value='/style/icon-family=Material+Icons.css'/>"  rel="stylesheet">
 
-    <!-- favicon -->
+
     <link rel="shortcut icon" href="/theme/material/images/users/favicon.png" type="image/x-icon" />
-    <!-- ... -->
+
 </head>
 
 <style>
-    @import url("font-awesome.min.css")/*tpa=https://www.mimi.ooo/assets/css/font-awesome.min.css*/;
+    @import url("<c:url value='/style/font-awesome.min.css'/>");
 
     @font-face {
         font-family: title-speed;
-        src: url("LobsterTwo-Regular.otf")/*tpa=https://www.mimi.ooo/fonts/LobsterTwo-Regular.otf*/;
+        src: url("LobsterTwo-Regular.otf");
     }
 
     .navbar-brand{
         font-family: title-speed;
         font-size: 1.2rem;
         font-weight: 500;
-
     }
 
 </style>
@@ -114,14 +108,13 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
         <div class="full-page-background" style="background-image: url(/img/login.jpeg) "></div>
     </div>
 </div>
 
-<!-- <script src="//cdn.staticfile.org/jquery/2.2.1/jquery.min.js"></script> -->
+
 <script type="text/javascript" src="jquery-2.2.1.min.js" ></script>
 <script src="perfect-scrollbar.jquery.min.js" ></script>
 
