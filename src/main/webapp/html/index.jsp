@@ -363,12 +363,12 @@
                         </a>
                     </li>
                     <li class="">
-                        <a href="register.html" >
+                        <a href="register.jsp" >
                             <i class="material-icons"><img src="<c:url value='/images/registerIcon.png'/>"></i> 注册
                         </a>
                     </li>
                     <li class="">
-                        <a href="login.html" >
+                        <a href="login.jsp" >
                             <i class="material-icons"><img src="<c:url value='/images/loginIcon.png'/>"></i> 登录
                         </a>
                     </li>
@@ -396,7 +396,7 @@
                             </div><br>
                             <div class="wow fadeInLeft" data-wow-delay="0.3s">
                                 <a class="btn btn-white dark-grey-text font-bold ml-0" href="register.html"  target="_blank"><i class="material-icons">person_add</i>注册</a>
-                                <a class="btn btn-outline-white waves-effect waves-light" href="login.html" ><i class="material-icons">fingerprint</i> 登录</a>
+                                <a class="btn btn-outline-white waves-effect waves-light" href="login.jsp" ><i class="material-icons">fingerprint</i> 登录</a>
                                 <!--迷改
                                 <a class="btn btn-outline-white waves-effect waves-light" href="https://telegram.me/freereaper" target="_blank">主题联系<div class="ripple-container"></div></a>
                                 -->
