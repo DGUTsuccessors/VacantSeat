@@ -29,7 +29,7 @@
 
     @font-face {
         font-family: title-speed;
-        src: url("LobsterTwo-Regular.otf");
+        src: url("<c:url value='/fonts/LobsterTwo-Regular.otf'/>");
     }
 
     .navbar-brand{
@@ -46,33 +46,33 @@
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
-                <span class="sr-only">Toggle navigation</span>
+                <span class="sr-only"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html" >99iss</a>
+            <a class="navbar-brand" href="index.jsp" >VacantSeat</a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="index.html" >
-                        <i class="material-icons">dashboard</i> 首页
+                    <a href="index.jsp" >
+                        <i class="material-icons"><img src="<c:url value='/images/indexIcon.png'/>"></i> 首页
                     </a>
                 </li>
                 <li class="">
                     <a href="register.html" >
-                        <i class="material-icons">person_add</i> 注册
+                        <i class="material-icons"><img src="<c:url value='/images/registerIcon.png'/>"></i> 注册
                     </a>
                 </li>
                 <li class="">
                     <a href="login.html" >
-                        <i class="material-icons">fingerprint</i> 登录
+                        <i class="material-icons"><img src="<c:url value='/images/loginIcon.png'/>"></i> 登录
                     </a>
                 </li>
                 <li class="active">
-                    <a href="code.html" >
-                        <i class="material-icons">turned_in_not</i> 邀请码
+                    <a href="about.jsp" >
+                        <i class="material-icons"><img src="<c:url value='/images/aboutIcon.png'/>"></i> 关于
                     </a>
                 </li>
             </ul>
@@ -81,17 +81,17 @@
 </nav>
 
 <div class="wrapper wrapper-full-page">
-    <div class="full-page register-page" filter-color="black" data-image="/img/register.jpeg">
+    <div class="full-page register-page" filter-color="black" data-image="<c:url value='/images/register.jpg'/>">
         <div class="content">
             <div class="container">
 
 
                 <div class="card">
                     <div class="card-header card-header-icon" data-background-color="rose">
-                        <i class="material-icons">assignment</i>
+                        <i class="material-icons"><img src="<c:url value='/images/dogIcon.png'/>"></i>
                     </div>
                     <div class="card-content">
-                        <h4 class="card-title">99加速器邀请码</h4>
+                        <h4 class="card-title">关于我们</h4>
                         <div class="table-responsive">
                             <table class="table">
                                 <thead>
@@ -110,17 +110,17 @@
                 </div>
             </div>
         </div>
-        <div class="full-page-background" style="background-image: url(/img/login.jpeg) "></div>
+        <div class="full-page-background" style="background-image: url(<c:url value='/images/login.jpeg'/>) "></div>
     </div>
 </div>
 
 
-<script type="text/javascript" src="jquery-2.2.1.min.js" ></script>
-<script src="perfect-scrollbar.jquery.min.js" ></script>
+<script type="text/javascript" src="<c:url value='/js/jquery-2.2.1.min.js'/>" ></script>
+<script src="<c:url value='/js/perfect-scrollbar.jquery.min.js'/>" ></script>
 
-<script src="material-dashboard.js" ></script>
-<script src="material.min.js" ></script>
-<script type="text/javascript" src="love.js" ></script>
-<script text="text/javascript" src="particle.js" ></script>
+<script src="<c:url value='/js/material-dashboard.js'/>" ></script>
+<script src="<c:url value='/js/material.min.js'/>" ></script>
+<script type="text/javascript" src="<c:url value='/js/love.js'/>" ></script>
+<script text="text/javascript" src="<c:url value='/js/particle.js'/>" ></script>
 </body>
 </html>
