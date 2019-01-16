@@ -61,12 +61,12 @@
                     </a>
                 </li>
                 <li class="">
-                    <a href="register.html" >
+                    <a href="register.jsp" >
                         <i class="material-icons"><img src="<c:url value='/images/registerIcon.png'/>"></i> 注册
                     </a>
                 </li>
                 <li class="">
-                    <a href="login.html" >
+                    <a href="login.jsp" >
                         <i class="material-icons"><img src="<c:url value='/images/loginIcon.png'/>"></i> 登录
                     </a>
                 </li>

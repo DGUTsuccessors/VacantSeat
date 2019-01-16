@@ -362,11 +362,11 @@
                     if(data.ret == 1){
                         swal({
                                 title: data.msg,
-                                text: "欢迎使用迷迷加速器",
+                                text: "欢迎使用有位么",
                                 type:"success"
                             },
                             function(){
-                                window.location.href = 'login.htm'/*tpa=https://www.mimi.ooo/auth/login*/;
+                                window.location.href = 'login.jsp'/*tpa=https://www.mimi.ooo/auth/login*/;
                             });
                     }else{
                         swal(

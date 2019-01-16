@@ -89,7 +89,7 @@
                     </a>
                 </li>
                 <li class="">
-                    <a href="register.html" >
+                    <a href="register.jsp" >
                         <i class="material-icons"><img src="<c:url value='/images/registerIcon.png'/>"></i> 注册
                     </a>
                 </li>
@@ -208,7 +208,7 @@
                       html: "<span style='color: #9954bb; font-size:2rem; font-weight: 500'>"+user+"</span>",
                       imageUrl: "shendan.png"/*tpa=https://www.mimi.ooo/assets/images/shendan.png*/,
                 }).then(function(){
-                window.location.href = 'login.htm'/*tpa=https://www.mimi.ooo/user/*/;
+                window.location.href = 'login.jsp'/*tpa=https://www.mimi.ooo/user/*/;
             });
         */
             if(data.ret == 1){
@@ -220,7 +220,7 @@
                         html: true,
                     },
                     function(){
-                        window.location.href = 'login.htm'/*tpa=https://www.mimi.ooo/user/*/;
+                        window.location.href = 'login.jsp'/*tpa=https://www.mimi.ooo/user/*/;
                     });
             }else{
                 swal(
