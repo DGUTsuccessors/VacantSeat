@@ -1,4 +1,4 @@
-[:seat: VacantSeat]
+[:seat: VacantSeat](#说在前面)
 ======
 
 说在前面
