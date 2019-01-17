@@ -30,7 +30,7 @@
   
 - [:man: 进击的伙伴](#people-进击的伙伴)
 
-- [:quetion: 欢迎合并代码请求](#sigh-欢迎合并代码请求)
+- [:help: 欢迎合并代码请求](#sigh-欢迎合并代码请求)
 
 
 
@@ -89,5 +89,5 @@ git merge upstream/master
 ## :man: 进击的伙伴
 ![泽荣](https://avatars2.githubusercontent.com/u/32723712?s=400&v=4)
 
-## :quetion: 欢迎合并代码请求
+## :help: 欢迎合并代码请求
 看到了错误？发现不合理的地方？给我发送合并代码请求！但请不要做排版方面的修改——我大概不会接受它们。谢谢！
