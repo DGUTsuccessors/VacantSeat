@@ -28,9 +28,9 @@
     -   [processon](#processon)
     -   [如何团队项目保持同步(重要)](#如何团队项目保持同步重要)
   
-- [:people: 进击的伙伴](#people-进击的伙伴)
+- [:man: 进击的伙伴](#people-进击的伙伴)
 
-- [:sigh: 欢迎合并代码请求](#sigh-欢迎合并代码请求)
+- [:palm: 欢迎合并代码请求](#sigh-欢迎合并代码请求)
 
 
 
@@ -86,7 +86,8 @@ git merge upstream/master
 
 -   [processon在线画用例图](https://www.processon.com)
 
-## :people: 进击的伙伴
-- ![泽荣](https://avatars2.githubusercontent.com/u/32723712?s=400&v=4)
-## :sigh: 欢迎合并代码请求
+## :man: 进击的伙伴
+![泽荣](https://avatars2.githubusercontent.com/u/32723712?s=400&v=4)
+
+## :plam: 欢迎合并代码请求
 看到了错误？发现不合理的地方？给我发送合并代码请求！但请不要做排版方面的修改——我大概不会接受它们。谢谢！
