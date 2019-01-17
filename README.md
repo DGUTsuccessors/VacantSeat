@@ -12,6 +12,19 @@ VacantSeat
 
 - 希望此次小小的项目能带动我们学习的热情，享受学习，互助进步。
 
-目录
-----
--   [:coffee: Java]
+## 目录
+
+
+- [:open_file_folder: 重要文档链接](#open_file_folder-重要文档链接)
+    -   [项目规格说明书](docs/)
+    -   [项目需求说明书](docs/)
+    -   [关于分工的信息](docs/)
+    
+- [:pencil: 项目规范及各种教程](#pencil-项目规范及各种教程)
+    -   [代码规范](#代码规范)
+    -   [关于commit](#关于commit)
+    -   [关于issue](#关于issue)
+    -   [git教程](#git教程)
+    -   [processon](#processon)
+    -   [如何团队项目保持同步(重要)](#如何团队项目保持同步重要)
+
