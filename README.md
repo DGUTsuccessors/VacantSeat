@@ -1,4 +1,4 @@
-[:seat: VacantSeat]
+[:seat: VacantSeat](#目录)
 ======
 
 说在前面
