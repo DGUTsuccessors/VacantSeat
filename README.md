@@ -1,4 +1,4 @@
-VacantSeat
+[:seat: VacantSeat]
 ======
 
 说在前面
@@ -16,7 +16,7 @@ VacantSeat
 
 
 - [:open_file_folder: 重要文档链接](#open_file_folder-重要文档链接)
-    -   [项目规格说明书](docs/)
+    -   [项目规格说明书](docs/demand-specification.md)
     -   [项目需求说明书](docs/)
     -   [关于分工的信息](docs/)
     
