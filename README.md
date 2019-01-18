@@ -3,6 +3,8 @@
 
 说在前面
 ----
+- `VacantSeat`,"we can see it".通过本系统你可以看到校园内你想了解的座位情况。
+
 - 客流人数统计是现实生活中进行有效学习，工作的重要依据，精确有效地对校园内的主要场所进行客流人数统计可以让学生合理地调动自身的人力和物力。
 
 - 本系统利用数字图像分析技术，对特定的视频序列中的运动对象自动检测、识别和跟踪，掌握实时的人流量情况，从而提供一种更加先进可行的智能处理方案。
@@ -10,7 +12,7 @@
 - 帮助学生在校园内了解实时的饭堂，图书馆等主要场所的拥挤程度，红色代表严重拥堵，黄色代表一般，绿色代表通畅。后期改进颜色的深度能更加直观的表示路况。
 在现有的技术上进行创新设计，并通过该路况系统实现各种服务功能。
 
-- 希望此次小小的项目能带动我们学习的热情，享受学习，互助进步。
+- 希望此次小小的项目能带动我们学习的热情，`享受学习`，`互助进步`。
 
 ## 目录
 
@@ -30,7 +32,7 @@
   
 - [:man: 进击的伙伴](#people-进击的伙伴)
 
-- [:help: 欢迎合并代码请求](#sigh-欢迎合并代码请求)
+- [:hand: 欢迎合并代码请求](#sigh-欢迎合并代码请求)
 
 
 
@@ -87,7 +89,14 @@ git merge upstream/master
 -   [processon在线画用例图](https://www.processon.com)
 
 ## :man: 进击的伙伴
-![泽荣](https://avatars2.githubusercontent.com/u/32723712?s=400&v=4)
+<table width="600">
+<td><a href="https://github.com/Charming-Victim"><img alt="洪铭" width="100" height="100" src="https://avatars2.githubusercontent.com/u/25278475?s=400&amp;u=0321f939157a654f11f01aab4e170d433c6d38be&amp;v=4"/></a></td>
+<td><a href="https://github.com/LZR29"><img alt="泽荣" width="100" height="100" src="https://avatars3.githubusercontent.com/u/32723712?s=460&amp;v=4"/></a></td>
+<td><a href="https://github.com/SYongheng"><img alt="用恒" width="100" height="100" src="https://avatars0.githubusercontent.com/u/44357416?s=400&v=4"/></a></td>
+<td><a href="https://github.com/xkx1998"><img alt="可翔" width="100" height="100" src="https://avatars3.githubusercontent.com/u/38906932?s=400&v=4"/></a></td>
+<td><a href="https://github.com/YuPez"><img alt="雨萍" width="100" height="100" src="https://avatars2.githubusercontent.com/u/38039945?s=400&v=4"/></a></td>
+</table>
 
-## :help: 欢迎合并代码请求
+
+## :hand: 欢迎合并代码请求
 看到了错误？发现不合理的地方？给我发送合并代码请求！但请不要做排版方面的修改——我大概不会接受它们。谢谢！
