@@ -391,12 +391,12 @@
                             <div class="wow fadeInLeft" data-wow-delay="0.3s" style="text-shadow:2px 2px 2px #000;">
                                 <h1 class="h1-responsive font-bold mt-sm-5">有位么</h1>
                                 <div class="h6" style="text-transform:none">
-                                    拥有GIA、IIJ、HKBN、HKT、GCP、AZURE、AWS、软银CN2等多条知名线路，支持H1Z1、战地、绝地求生等所有Steam游戏加速。
+                                    你想知道图书馆，饭堂有多少人吗？打开有位么，看看有位么！
                                 </div>
                             </div><br>
                             <div class="wow fadeInLeft" data-wow-delay="0.3s">
-                                <a class="btn btn-white dark-grey-text font-bold ml-0" href="register.html"  target="_blank"><i class="material-icons">person_add</i>注册</a>
-                                <a class="btn btn-outline-white waves-effect waves-light" href="login.jsp" ><i class="material-icons">fingerprint</i> 登录</a>
+                                <a class="btn btn-white dark-grey-text font-bold ml-0" href="register.jsp"  target="_blank"><i class="material-icons"><img src="<c:url value='/images/registerIcon.png'/>"></i>注册</a>
+                                <a class="btn btn-outline-white waves-effect waves-light" href="login.jsp" ><i class="material-icons"><img src="<c:url value='/images/loginIcon.png'/>"></i> 登录</a>
                                 <!--迷改
                                 <a class="btn btn-outline-white waves-effect waves-light" href="https://telegram.me/freereaper" target="_blank">主题联系<div class="ripple-container"></div></a>
                                 -->
@@ -411,136 +411,33 @@
     </section>
 </header>
 <div id="content">
-    <section class="row no-gutters" id="features">
-        <div class="col-lg-3 col-md-6 col-sm-12 deep-purple lighten-1 text-white">
-            <div class="p-5 text-center wow zoomIn" data-wow-delay=".1s"><i class="fa fa-line-chart fa-2x"></i>
-                <div class="h5 mt-3">游戏</div>
-                <p class="mt-5">接入香港，台湾，日本，韩国等游戏CN2专线，畅游黑沙，彩虹，吃鸡，战地等热门游戏．</p>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 purple lighten-1 text-white">
-            <div class="p-5 text-center wow zoomIn" data-wow-delay=".3s"><i class="fa fa-industry fa-2x"></i>
-                <div class="h5 mt-3">技术</div>
-                <p class="mt-5">在谷歌学术、ScienceDirect、BASE Search等网站上快速搜索学术论文资料。在手机上使用．</p>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 teal lighten-1 text-white">
-            <div class="p-5 text-center wow zoomIn" data-wow-delay=".5s"><i class="fa fa-users fa-2x"></i>
-                <div class="h5 mt-3">社交</div>
-                <p class="mt-5">WhatsApp、LINE、Skype、脸书和推特、Gmail、Instagram、Flickr、Netflix、Reddit.</p>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 light-blue lighten-1 text-white">
-            <div class="p-5 text-center wow zoomIn" data-wow-delay=".7s"><i class="fa fa-bullhorn fa-2x"></i>
-                <div class="h5 mt-3">海外</div>
-                <p class="mt-5">适用于对外贸易，海淘等业务，自由地沟通合作、在线协作和无障碍交易.</p>
-            </div>
-        </div>
-    </section>
     <section class="text-center py-5 grey lighten-4" id="about">
         <div class="container">
             <div class="wow fadeIn">
-                <h2 class="h1 pt-5 pb-3">为什么选择我们?</h2>
+                <h2 class="h1 pt-5 pb-3">为什么使用我们?</h2>
                 <p class="px-5 mb-5 pb-3 lead blue-grey-text">
-                    全球多个加速网络连接服务点,专业的网络加速CN2直连线路，为客户提供高速稳定的加速体验．
+                    学生就可以预知校园内如食堂和图书馆的拥挤状况，再决策是否出行，大大地提高学习和生活效率。
                 </p>
             </div>
             <div class="row">
-                <div class="col-md-4 mb-r wow fadeInUp" data-wow-delay=".3s"><i class="fa fa-dashboard fa-3x orange-text"></i>
-                    <h3 class="h4 mt-3">速度</h3>
-                    <p class="mt-3 blue-grey-text">
-                        加速网络均部署了先进的TCP加速技术，用户无需下载任何额外软件，就可以享受到云加速加速网络带来的高速度.
-                    </p>
-                </div>
-                <div class="col-md-4 mb-r wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-comments-o fa-3x cyan-text"></i>
-                    <h3 class="h4 mt-3">稳定</h3>
-                    <p class="mt-3 blue-grey-text">
-                        致力于确保服务器稳定运作，连接点具有多重负载均衡机制以及智能分流加速，全节点SLA保证，随时畅通的高效加速.
-                    </p>
-                </div>
-                <div class="col-md-4 mb-r wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-cubes fa-3x red-text"></i>
+                <div class="col-md-4 mb-r wow fadeInUp" data-wow-delay=".3s"><i><img src="<c:url value='/images/smile.png'/>"></i>
                     <h3 class="h4 mt-3">简单</h3>
                     <p class="mt-3 blue-grey-text">
-                        所有的设备通用,一个帐号即可畅通您所有的智能设备，稳定运行于主流的Windows / iOS / Android / Mac OS 等操作系统.
+                        您只需登陆您对应的校园帐号，即可查看对应校园的重点区域的拥挤程度。
                     </p>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="py-5" id="projects">
-        <div class="container">
-            <div class="wow fadeIn">
-                <h2 class="text-center h1 my-4">适合人群</h2>
-
-                <p class="px-5 mb-5 pb-3 lead blue-grey-text text-center">
-
-                </p>
-
-            </div>
-            <div class="row wow fadeInLeft" data-wow-delay=".3s">
-                <div class="col-lg-6 col-xl-5 pr-lg-5 pb-5"><img class="img-fluid rounded z-depth-2" src="card-1.jpg"  alt="project image"/></div>
-                <div class="col-lg-6 col-xl-7 pl-lg-5 pb-4">
-                    <div class="row mb-3">
-                        <div class="col-1 mr-1"><i class="fa fa-steam fa-2x cyan-text"></i></div>
-                        <div class="col-10">
-                            <h5 class="font-bold">游戏党</h5>
-                            <p class="grey-text">
-                                在索尼PS4，微软Xbox Live、Steam、Battle.net 和其它PC游戏如战地，黑沙，吃鸡，彩虹魔兽世界等游戏上享受低延迟的畅玩体验。.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-1 mr-1"><i class="fa fa-youtube fa-2x red-text"></i></div>
-                        <div class="col-10">
-                            <h5 class="font-bold">影视党</h5>
-                            <p class="grey-text">
-                                在线观看Youtube、Netflix和Twitch，超大带宽让您可以以流畅的速度观看1080P，甚至4K视频．
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-1 mr-1"><i class="fa fa-buysellads fa-2x deep-purple-text"></i></div>
-                        <div class="col-10">
-                            <h5 class="font-bold">设计师</h5>
-                            <p class="grey-text">
-                                在Smashing Magazine、Flickr、DeviantArt等网站上轻松获得设计素材，加入Github、Stack OverFlow、Reddit、Android.com等编程社区自由交谈.
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-md-4 mb-r wow fadeInUp" data-wow-delay=".4s"><i><img src="<c:url value='/images/visual.png'/>"></i>
+                    <h3 class="h4 mt-3">直观</h3>
+                    <p class="mt-3 blue-grey-text">
+                        馆内人数由折线图，扇形图加上精确的数字表示，且红色代表严重拥堵，黄色代表一般，绿色代表通畅。
+                    </p>
                 </div>
-            </div>
-            <hr/>
-            <div class="row pt-5 wow fadeInRight" data-wow-delay=".3s">
-                <div class="col-lg-6 col-xl-7 mb-3">
-                    <div class="row mb-3">
-                        <div class="col-1 mr-1"><i class="fa fa-bar-chart fa-2x indigo-text"></i></div>
-                        <div class="col-10">
-                            <h5 class="font-bold">业务族</h5>
-                            <p class="grey-text">
-                                在whatsapp与海外客户自由地沟通合作、在线协作和无障碍交易，以及黑五海淘等.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-1 mr-1"><i class="fa fa-music fa-2x pink-text"></i></div>
-                        <div class="col-10">
-                            <h5 class="font-bold">追星族</h5>
-                            <p class="grey-text">
-                                在Instagram上关注爱豆最新动态，与自己的朋友分享心仪的照片，延迟超低，图片秒开.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-1 mr-1"><i class="fa fa-smile-o fa-2x blue-text"></i></div>
-                        <div class="col-10">
-                            <h5 class="font-bold">学生党</h5>
-                            <p class="grey-text">
-                                在谷歌学术、ScienceDirect、BASE Search、Amazon A9等网站上快速搜索学术论文资料.
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-md-4 mb-r wow fadeInUp" data-wow-delay=".5s"><i><img src="<c:url value='/images/immediate.png'/>"></i>
+                    <h3 class="h4 mt-3">即时</h3>
+                    <p class="mt-3 blue-grey-text">
+                        您不仅可以查看当前时刻的拥挤程度，还能获知全天的信息，方便您为下次出行做出决策。
+                    </p>
                 </div>
-                <div class="col-lg-6 col-xl-5 mb-3"><img class="img-fluid rounded z-depth-2" src="card-2.jpeg"  alt="project image"/></div>
             </div>
         </div>
     </section>
@@ -554,13 +451,26 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="mb-5 flex-center"><a class="px-3"><i class="fa fa-facebook fa-lg white-text"></i></a><a class="px-3"><i class="fa fa-twitter fa-lg white-text"></i></a><a class="px-3"><i class="fa fa-google-plus fa-lg white-text"></i></a><a class="px-3"><i class="fa fa-linkedin fa-lg white-text"></i></a></div>
+                <div class="mb-5 flex-center">
+                    <a class="px-3">
+                        <i class="fa fa-facebook fa-lg white-text"></i>
+                    </a>
+                    <a class="px-3">
+                        <i class="fa fa-twitter fa-lg white-text"></i>
+                    </a>
+                    <a class="px-3">
+                        <i class="fa fa-google-plus fa-lg white-text"></i>
+                    </a>
+                    <a class="px-3">
+                        <i class="fa fa-linkedin fa-lg white-text"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
     <div class="footer-copyright">
         <div class="container-fluid">
-            <p>&copy; <a href="index.jsp" ></a>Design By <a style="color: rgba(255, 255, 255, 0.6);" href="javascript:if(confirm('https://telegram.me/freereaper  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://telegram.me/freereaper'"  target="_blank" rel="nofollow">456</a></p>
+            <p>&copy; <a href="index.jsp" ></a>Design By DGUTsuccessors</p>
         </div>
     </div>
 </footer>
