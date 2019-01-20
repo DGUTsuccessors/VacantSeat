@@ -107,34 +107,34 @@
                                 <div class="card-content">
                                     <div class="info info-horizontal">
                                         <div class="icon icon-rose">
-                                            <i class="material-icons">timeline</i>
+                                            <i class="material-icons"><img src="<c:url value='/images/timeline.png'/>"></i>
                                         </div>
                                         <div class="description">
-                                            <h4 class="info-title">游戏</h4>
+                                            <h4 class="info-title">高效</h4>
                                             <p class="description">
-                                                提供绝地求生，战地，彩虹六号，黑沙等热门游戏加速服务，无论是PC还是PS4, XBox平台均可使用
+                                                提供校园重要地段检测服务
                                             </p>
                                         </div>
                                     </div>
                                     <div class="info info-horizontal">
                                         <div class="icon icon-primary">
-                                            <i class="material-icons">code</i>
+                                            <i class="material-icons"><img src="<c:url value='/images/visual.png'/>"></i>
                                         </div>
                                         <div class="description">
-                                            <h4 class="info-title">娱乐</h4>
+                                            <h4 class="info-title">直观</h4>
                                             <p class="description">
-                                                多条高速线路，可观看油管4k视频，速度快，无缓冲
+                                                多种曲线共同显示
                                             </p>
                                         </div>
                                     </div>
                                     <div class="info info-horizontal">
                                         <div class="icon icon-info">
-                                            <i class="material-icons">group</i>
+                                            <i class="material-icons"><img src="<c:url value='/images/study.png'/>"></i>
                                         </div>
                                         <div class="description">
-                                            <h4 class="info-title">学习</h4>
+                                            <h4 class="info-title">省时</h4>
                                             <p class="description">
-                                                为开发学习助力，可用于python, java, Android, IOS, js, node, php等开发文档的搜索与使用
+                                                为学习、吃饭助力，再也不用人挤人
                                             </p>
                                         </div>
                                     </div>
@@ -160,49 +160,38 @@
                                     <div class="card-content">
                                         <div class="input-group">
                                                 <span class="input-group-addon">
-                                                    <i class="material-icons">face</i>
+                                                    <img src="<c:url value='/images/face.png'/>">
                                                 </span>
-                                            <div class="form-group is-empty"><input placeholder="昵称"  id="name" class="form-control"　type="text"><span class="material-input"></span></div>
+                                            <div class="form-group is-empty">
+                                                <input placeholder="昵称"  id="name" class="form-control"　type="text">
+                                                <span class="material-input"></span>
+                                            </div>
                                         </div>
                                         <div class="input-group">
                                                 <span class="input-group-addon">
-                                                    <i class="material-icons">email</i>
+                                                    <i class="material-icons"><img src="<c:url value='/images/email.png'/>"></i>
                                                 </span>
-                                            <div class="form-group is-empty"><input placeholder="邮箱"  id="email" class="form-control"　type="text"><span class="material-input"></span></div>
+                                            <div class="form-group is-empty">
+                                                <input placeholder="邮箱"  id="email" class="form-control"　type="text">
+                                                <span class="material-input"></span>
+                                            </div>
                                         </div>
-
-
-
                                         <div class="input-group">
                                                 <span class="input-group-addon">
-                                                    <i class="material-icons">lock_outline</i>
+                                                    <i class="material-icons"><img src="<c:url value='/images/lock.png'/>"></i>
                                                 </span>
                                             <div class="form-group is-empty"><input placeholder="密码"  id="passwd" class="form-control" type="password"><span class="material-input"></span></div>
                                         </div>
                                         <div class="input-group">
                                                 <span class="input-group-addon">
-                                                    <i class="material-icons">lock_outline</i>
+                                                    <i class="material-icons"><img src="<c:url value='/images/lock.png'/>"></i>
                                                 </span>
                                             <div class="form-group is-empty"><input placeholder="重复密码" id="repasswd" class="form-control" type="password"><span class="material-input"></span></div>
                                         </div>
-
-
-                                        <div class="input-group" style='display:none;'>
-                                                <span class="input-group-addon">
-                                                    <i class="material-icons">label_outline</i>
-                                                </span>
-                                            <div class="form-group is-empty"><input placeholder="邀请码" id="code" class="form-control" type="text" value="" readonly="readonly" ><span class="material-input"></span></div>
-                                            <div style="font-size:0.7rem;color:black;padding:20px 0px 0px 10px;">邀请码已失效，<br/>但您仍然可以继续注册。</div>
-                                        </div>
-
-
-                                        <!-- If you want to add a checkbox to this form, uncomment this code -->
-
-
                                     </div>
                                     <div class="footer text-center">
                                         <button class="btn btn-primary btn-round" id="reg" type="button">
-                                            <i class="material-icons">favorite</i> 注册
+                                            <i class="material-icons"><img src="<c:url value='/images/love.png'/>"></i> 注册
                                             <div class="ripple-container"></div></button>
                                     </div>
                                 </form>
