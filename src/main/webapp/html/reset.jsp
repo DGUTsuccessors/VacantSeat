@@ -86,7 +86,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand animated swing" href="index.jsp" >有位么</a>
+            <a class="navbar-brand animated swing" href="index.jsp" >VacantSeat</a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
